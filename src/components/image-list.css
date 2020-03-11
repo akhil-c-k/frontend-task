@@ -1,0 +1,33 @@
+.box-holder
+ {
+     width:300px;
+     -webkit-box-shadow: -4px 2px 23px -8px rgba(0,0,0,0.45);
+     -moz-box-shadow: -4px 2px 23px -8px rgba(0,0,0,0.45);
+     box-shadow: -4px 2px 23px -8px rgba(0,0,0,0.45);
+     margin: 25px;
+     display: flex;
+     padding: 10px;
+     background-color: #2f2f2f;
+    color: #ffffff;
+ }
+
+ .image_thumb_wrapper img 
+  {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+  }
+
+ .title-wrapper
+  {
+      padding: 10px;
+      padding: 10px;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+.my-posts
+ {
+     height: 100vh;
+     overflow-y: scroll;
+ }
